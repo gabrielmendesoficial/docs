@@ -33,11 +33,6 @@
   ],
   "anchors": [
     {
-      "name": "Community",
-      "icon": "discord",
-      "url": ""
-    },
-    {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
