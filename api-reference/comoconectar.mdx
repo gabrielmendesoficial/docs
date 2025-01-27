@@ -1,0 +1,112 @@
+---
+title: "Como conectar a minha VPS"
+description: "Description of your new file."
+---
+
+<Note>
+  Este guia é destinado a usuários que desejam acessar sua VPS utilizando o Sistema de Conexão Remota do Windows (RDP). Certifique-se de ter em mãos as credenciais fornecidas no painel da Cloudice.
+</Note>
+
+## O que você vai aprender
+
+Neste guia, abordaremos:
+
+1. Como acessar sua VPS utilizando o Sistema de Conexão Remota do Windows.
+
+2. Configurações básicas após o acesso.
+
+3. Testes iniciais para garantir que tudo está funcionando corretamente.
+
+***
+
+### 1. Acessando sua VPS pela Conexão Remota do Windows
+
+O acesso à sua VPS pode ser feito utilizando o cliente de **Conexão de Área de Trabalho Remota (RDP)**, que já está integrado no Windows.
+
+#### Instruções:
+
+1. **Obtenha suas credenciais**:
+
+   * **IP**: Fornecido no painel da Cloudice.
+
+   * **Porta**: Geralmente informada junto do IP (ex.: `IP:3389`).
+
+   * **Usuário e Senha**: Disponíveis no painel da Cloudice.
+
+2. **Abra o cliente de Conexão de Área de Trabalho Remota**:
+
+   * Pressione `Win + R`, digite `mstsc` e clique em **OK**.
+
+   * Na janela que se abrir, insira o **IP e a porta** da VPS no formato:```
+     <IP-da-VPS>:<porta>
+     ```Exemplo: `192.168.1.100:3389`.
+
+3. **Conecte-se à VPS**:
+
+   * Clique em **Conectar**.
+
+   * Quando solicitado, insira o **usuário** e a **senha** fornecidos.
+
+<Callout type="info">
+  Se esta for sua primeira vez conectando, você poderá receber um aviso sobre o certificado de segurança. Clique em **Sim** para continuar.
+</Callout>
+
+***
+
+### 2. Configurações Básicas Após o Acesso
+
+Após se conectar à sua VPS, recomendamos realizar as seguintes configurações para garantir o funcionamento ideal:
+
+1. **Atualize o sistema operacional**:
+
+   * Acesse o menu Iniciar, procure por "Windows Update" e instale todas as atualizações disponíveis.
+
+2. **Configure o fuso horário**:
+
+   * Clique com o botão direito no relógio no canto inferior direito.
+
+   * Selecione **Ajustar Data/Hora** e configure o fuso horário correto.
+
+3. **Verifique o status da rede**:
+
+   * Abra o **Prompt de Comando** (digite `cmd` no menu Iniciar).
+
+   * Execute o comando abaixo para verificar a conectividade externa:```bash
+     ping google.com
+     ```
+
+***
+
+### 3. Testando e Preparando sua VPS
+
+Com as configurações básicas concluídas, faça os seguintes testes para preparar o ambiente:
+
+1. **Teste a instalação de softwares**:
+
+   * Baixe e instale algum software básico, como navegadores ou ferramentas específicas para seu uso.
+
+2. **Verifique a conectividade**:
+
+   * Certifique-se de que portas específicas necessárias para seu serviço estão abertas (consulte a [configuração de firewall](/seguranca-vps)).
+
+3. **Reforce a segurança**:
+
+   * Alterar a senha do usuário principal é recomendado. Use uma senha forte e única.
+
+<Callout type="warning">
+  Lembre-se de sempre manter sua senha segura e nunca compartilhá-la com terceiros não confiáveis.
+</Callout>
+
+***
+
+## Próximos Passos
+
+Depois de realizar os primeiros passos, você pode explorar os guias avançados para configurar serviços específicos:
+
+* [Configuração do FiveM](/configuracao-fivem)
+
+* [Segurança da VPS](/seguranca-vps)
+
+* [Soluções de Problemas](/solucoes-de-problemas)
+
+Se precisar de ajuda adicional, entre em contato com o suporte da Cloudice ou explore outros tópicos na nossa documentação.
