@@ -17,13 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Suporte",
       "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Painel Cloudice",
+    "url": "https://cloudice.com.br/"
   },
   "tabs": [
     {
@@ -32,11 +32,6 @@
     }
   ],
   "anchors": [
-    {
-      "name": "Painel Cloudice",
-      "icon": "book-open-cover",
-      "url": "https://www.cloudice.com.br/panel/index.php"
-    },
     {
       "name": "Community",
       "icon": "discord",
@@ -85,8 +80,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/",
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/"
   }
 }
