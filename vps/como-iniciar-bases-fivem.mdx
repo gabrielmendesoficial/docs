@@ -1,0 +1,75 @@
+---
+title: "Iniciando seu Servidor FiveM na VPS"
+---
+
+## Vídeo Tutorial
+
+Para uma visualização mais detalhada sobre como configurar seu servidor FiveM na VPS, você pode acessar o vídeo tutorial abaixo:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CbpZhRagUyU?si=fo1ObMMQ0nKtOz90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## 1. Acesse sua VPS com as Credenciais
+
+Após adquirir a sua VPS, você receberá as credenciais de **usuário**, **senha**, e o **IP** do servidor. Use essas informações para se conectar à sua VPS via **Conexão de Área de Trabalho Remota** (RDP) ou outro método de acesso remoto.
+
+- **Usuário**: [Seu usuário]
+- **Senha**: [Sua senha]
+- **IP**: [Seu IP]
+- **Portas**: Você receberá um intervalo de portas (de 0 a 100) para configurar o acesso ao seu servidor.
+
+---
+
+## 2. Instale as Ferramentas Necessárias
+
+Após se conectar à VPS, você precisará instalar algumas ferramentas para gerenciar o servidor e a base de dados. Clique nos links abaixo para obter as versões mais recentes dos programas necessários.
+
+### Visual Studio Code (Editor de Código)
+- **Clique aqui para baixar e instalar o [Visual Studio Code](https://code.visualstudio.com/)**.
+
+### XAMPP (Servidor Web e Banco de Dados)
+- **Clique aqui para baixar e instalar o [XAMPP](https://www.apachefriends.org/pt_br/index.html)**.
+
+### HeidiSQL (Gerenciador de Banco de Dados)
+- **Clique aqui para baixar e instalar o [HeidiSQL](https://www.heidisql.com/download.php)**.
+
+---
+
+## 3. Acesse e Configure a Base do Servidor
+
+1. **Acesse a base do servidor**:
+   - A base do servidor já foi fornecida. Verifique se os recursos e scripts necessários estão na pasta `resources` e se o arquivo `server.cfg` está configurado corretamente.
+
+2. **Verifique as portas no firewall**:
+   - Após configurar a base, você precisará verificar e liberar as portas no **firewall** da sua VPS para garantir que os jogadores consigam acessar o servidor.
+   
+   Use o script de shell abaixo para facilitar a configuração das portas. Clique no link para fazer o **download do script**:
+
+   - [Clique aqui para baixar o script de configuração de firewall](#) *(a URL de download pode ser atualizada de acordo com a necessidade)*.
+
+   Após baixar o script, execute-o para garantir que as portas corretas estejam abertas no firewall. Lembre-se de verificar as portas fornecidas pela Cloudice (entre 0 e 100).
+
+---
+
+## 4. Inicie o Servidor
+
+1. **Iniciar o servidor**:
+   - Na pasta onde a base do servidor está armazenada, localize o arquivo `start.bat` e execute-o. Isso iniciará o servidor e você verá o processo de inicialização no terminal.
+   
+   Exemplo de comando para iniciar o servidor:
+   ```bash
+   cd C:\caminho\para\seu\servidor\FiveM
+   start.bat
+   ```
+
+2. **Verifique a execução do servidor**:
+O servidor deve começar a rodar. Fique atento a mensagens de erro ou alertas. Se necessário, reinicie o servidor com o comando restart.
+
+## 5. Considerações Importantes
+
+Responsabilidade sobre os recursos: Todos os arquivos, mods e recursos adicionados ao servidor não são de responsabilidade da Cloudice. Certifique-se de que está utilizando recursos de fontes confiáveis.
+
+Verificação de portas: As portas fornecidas pela Cloudice para a sua VPS devem ser usadas corretamente. Caso não saiba quais portas estão abertas, entre em contato com o suporte da Cloudice para assistência ou use o video no inicio do topíco.
+
+
