@@ -29,6 +29,10 @@
     {
       "name": "VPS (Máquinas Virtuais)",
       "url": "vps"
+    },
+    {
+      "name": "VPS (Máquinas Virtuais)",
+      "url": "vps"
     }
   ],
   "anchors": [
@@ -40,7 +44,7 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Inicial",
       "pages": [
         "introduction",
         "quickstart",
