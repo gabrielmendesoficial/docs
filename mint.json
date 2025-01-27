@@ -59,7 +59,7 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Documentação da VPS",
       "pages": [
         "vps/introduction",
         "vps/comoconectar"
