@@ -27,8 +27,8 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "VPS (Maquinas Virtuais)",
+      "url": "vps"
     }
   ],
   "anchors": [
@@ -71,7 +71,8 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        "vps/introduction",
+        "vps/comoconectar"
       ]
     },
     {
